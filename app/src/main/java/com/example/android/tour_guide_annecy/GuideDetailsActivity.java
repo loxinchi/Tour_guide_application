@@ -55,9 +55,6 @@ public class GuideDetailsActivity extends AppCompatActivity {
         String addressString = getString(aAddress);
         String telString = getString(aTel);
         String urlString = getString(aWebsiteUrl);
-        System.out.println("!~~~~~~~~~~~~~~~DEBUG~~~~~~~~~~~~~~!:addressString"+ addressString);
-        System.out.println("!~~~~~~~~~~~~~~~DEBUG~~~~~~~~~~~~~~!telString:"+ telString);
-        System.out.println("!~~~~~~~~~~~~~~~DEBUG~~~~~~~~~~~~~~!urlString:"+ urlString);
 
         callIcon = (ImageView)findViewById(R.id.call_image);
         callIcon.setOnClickListener(new OnClickListener() {
