@@ -7,74 +7,73 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     tools:context=".GuideDetailsActivity"
-    android:background="@drawable/gradient_background">
+    android:background="@drawable/gradient_background"
+    android:alpha="0.9">
 
     <ImageView
         android:id="@+id/item_image"
         android:layout_height="@dimen/item_detail_image_height"
         android:layout_width="match_parent"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        />
 
     <TextView
         android:id="@+id/item_name"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:paddingTop="8dp"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/item_detail_text_title"
         android:textStyle="bold"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:alpha="0.8"/>
 
     <TextView
         android:id="@+id/item_tel"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:paddingTop="8dp"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/item_detail_text_location"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:alpha="0.6"/>
 
     <TextView
         android:id="@+id/item_address"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:paddingTop="8dp"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/item_detail_text_location"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:alpha="0.6"/>
 
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:padding="8dp">
+        android:paddingTop="16dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/call_image"
-            android:layout_height="24dp"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/call"
-            app:civ_border_width="2dp"
-            app:civ_border_color="#A1FFB2"/>
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/call" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/website_image"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/ic_baseline_web_24"
-            app:civ_border_width="2dp"
-            app:civ_border_color="#A1FFB2"/>
+            android:src="@drawable/worldwide"/>
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/map_image"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:src="@drawable/ic_baseline_map_24"
-            app:civ_border_width="2dp"
-            app:civ_border_color="#A1FFB2"/>
+            android:src="@drawable/pin"/>
 
     </LinearLayout>
 
@@ -86,12 +85,13 @@
 
         <TextView
             android:id="@+id/call_text"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:text="@string/call_button"
             android:gravity="center_horizontal"
-            android:textColor="@color/action_button_text"/>
+            android:textColor="@color/action_button_text"
+            android:alpha="0.6"/>
 
         <TextView
             android:id="@+id/website_text"
@@ -100,7 +100,8 @@
             android:layout_width="0dp"
             android:text="@string/web_button"
             android:gravity="center_horizontal"
-            android:textColor="@color/action_button_text"/>
+            android:textColor="@color/action_button_text"
+            android:alpha="0.6"/>
 
         <TextView
             android:id="@+id/map_text"
@@ -109,8 +110,8 @@
             android:layout_width="0dp"
             android:text="@string/map_button"
             android:gravity="center_horizontal"
-            android:textColor="@color/action_button_text"/>
-
+            android:textColor="@color/action_button_text"
+            android:alpha="0.6"/>
     </LinearLayout>
 
 </LinearLayout>
