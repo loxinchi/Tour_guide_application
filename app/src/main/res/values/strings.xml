@@ -158,4 +158,5 @@
     <string name="food_tab_title">food</string>
     <string name="tour_tab_title">tour</string>
     <string name="hotel_tab_title">hotel</string>
+    <string name="click_for_more_information">Click for more information</string>
 </resources>

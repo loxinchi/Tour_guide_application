@@ -1,126 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    tools:context=".GuideDetailsActivity"
-    android:background="@drawable/gradient_background"
-    android:alpha="0.9">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/item_image"
-        android:layout_height="@dimen/item_detail_image_height"
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:scaleType="centerCrop"
-        />
-
-    <TextView
-        android:id="@+id/item_name"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:paddingTop="8dp"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/item_detail_text_title"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        android:gravity="center_horizontal"
-        android:alpha="0.8"/>
-
-    <TextView
-        android:id="@+id/item_tel"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:paddingTop="8dp"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/item_detail_text_location"
-        android:fontFamily="sans-serif"
-        android:gravity="center_horizontal"
-        android:alpha="0.6"/>
-
-    <TextView
-        android:id="@+id/item_address"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:paddingTop="8dp"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/item_detail_text_location"
-        android:fontFamily="sans-serif"
-        android:gravity="center_horizontal"
-        android:alpha="0.6"/>
-
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:paddingTop="32dp">
+        android:alpha="0.9"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical"
+        tools:context=".GuideDetailsActivity">
 
         <ImageView
-            android:id="@+id/call_image"
-            android:layout_width="0dp"
-            android:layout_height="36dp"
-            android:layout_weight="1"
-            android:src="@drawable/call" />
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_detail_image_height"
+            android:scaleType="centerCrop" />
 
-        <ImageView
-            android:id="@+id/website_image"
-            android:layout_height="36dp"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:src="@drawable/worldwide"/>
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/item_detail_text_title"
+            android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/map_image"
-            android:layout_height="36dp"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:src="@drawable/pin"/>
+        <TextView
+            android:id="@+id/item_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/item_detail_text_location" />
+
+        <TextView
+            android:id="@+id/item_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/item_detail_text_location" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:alpha="0.6"
+            android:fontFamily="sans-serif"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/item_detail_text_location"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="32dp">
+
+            <ImageView
+                android:id="@+id/call_image"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:src="@drawable/call" />
+
+            <ImageView
+                android:id="@+id/website_image"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:src="@drawable/worldwide" />
+
+            <ImageView
+                android:id="@+id/map_image"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:src="@drawable/pin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/call_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="0.6"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/call_button"
+                android:textColor="@color/action_button_text"
+                android:textSize="@dimen/item_detail_body_text" />
+
+            <TextView
+                android:id="@+id/website_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="0.6"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/web_button"
+                android:textColor="@color/action_button_text"
+                android:textSize="@dimen/item_detail_body_text" />
+
+            <TextView
+                android:id="@+id/map_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:alpha="0.6"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/map_button"
+                android:textColor="@color/action_button_text"
+                android:textSize="@dimen/item_detail_body_text" />
+        </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginTop="16dp">
-
-        <TextView
-            android:id="@+id/call_text"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:text="@string/call_button"
-            android:fontFamily="sans-serif"
-            android:textSize="@dimen/item_detail_body_text"
-            android:gravity="center_horizontal"
-            android:textColor="@color/action_button_text"
-            android:alpha="0.6"/>
-
-        <TextView
-            android:id="@+id/website_text"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:text="@string/web_button"
-            android:fontFamily="sans-serif"
-            android:textSize="@dimen/item_detail_body_text"
-            android:gravity="center_horizontal"
-            android:textColor="@color/action_button_text"
-            android:alpha="0.6"/>
-
-        <TextView
-            android:id="@+id/map_text"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:text="@string/map_button"
-            android:textSize="@dimen/item_detail_body_text"
-            android:fontFamily="sans-serif"
-            android:gravity="center_horizontal"
-            android:textColor="@color/action_button_text"
-            android:alpha="0.6"/>
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>
