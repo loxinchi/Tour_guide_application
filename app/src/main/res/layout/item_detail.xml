@@ -25,6 +25,7 @@
         android:textColor="@android:color/white"
         android:textSize="@dimen/item_detail_text_title"
         android:textStyle="bold"
+        android:fontFamily="sans-serif"
         android:gravity="center_horizontal"
         android:alpha="0.8"/>
 
@@ -35,6 +36,7 @@
         android:paddingTop="8dp"
         android:textColor="@android:color/white"
         android:textSize="@dimen/item_detail_text_location"
+        android:fontFamily="sans-serif"
         android:gravity="center_horizontal"
         android:alpha="0.6"/>
 
@@ -45,6 +47,7 @@
         android:paddingTop="8dp"
         android:textColor="@android:color/white"
         android:textSize="@dimen/item_detail_text_location"
+        android:fontFamily="sans-serif"
         android:gravity="center_horizontal"
         android:alpha="0.6"/>
 
@@ -52,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:paddingTop="16dp">
+        android:paddingTop="32dp">
 
         <ImageView
             android:id="@+id/call_image"
@@ -81,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:padding="8dp">
+        android:layout_marginTop="16dp">
 
         <TextView
             android:id="@+id/call_text"
@@ -89,6 +92,8 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:text="@string/call_button"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/item_detail_body_text"
             android:gravity="center_horizontal"
             android:textColor="@color/action_button_text"
             android:alpha="0.6"/>
@@ -99,6 +104,8 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:text="@string/web_button"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/item_detail_body_text"
             android:gravity="center_horizontal"
             android:textColor="@color/action_button_text"
             android:alpha="0.6"/>
@@ -109,6 +116,8 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:text="@string/map_button"
+            android:textSize="@dimen/item_detail_body_text"
+            android:fontFamily="sans-serif"
             android:gravity="center_horizontal"
             android:textColor="@color/action_button_text"
             android:alpha="0.6"/>

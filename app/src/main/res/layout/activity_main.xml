@@ -24,7 +24,8 @@
             android:background="@color/blue_700"
             app:tabTextColor="@color/white"
             app:tabIndicatorColor="@color/pink_300"
-            app:tabIndicatorHeight="3dp" />
+            app:tabIndicatorHeight="3dp"
+            android:fontFamily="sans-serif-medium" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

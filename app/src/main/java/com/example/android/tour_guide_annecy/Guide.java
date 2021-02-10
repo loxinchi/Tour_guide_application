@@ -1,6 +1,5 @@
 package com.example.android.tour_guide_annecy;
 
-
 /**
  * {@link Guide} represents the guide information that introduced in this tour guide app.
  * It contains resource IDs for the Name, Region, Image, Phone number, Address, Website.
@@ -31,17 +30,11 @@ public class Guide {
      * @param nameId is the string resource Id for the name of this store
      * @param regionId is the string resource Id for the region of this store
      * @param imageResourceId is the resource ID for the image file associated with this store
-//     * @param phoneNumberId is the string resource ID for phone number of this store
-//     * @param addressId is the string resource Id for the address of this store
-//     * @param webURLId is the resource ID for the web url of this store
      */
     public Guide(int nameId, int regionId, int imageResourceId) {
         mNameId = nameId;
         mRegionId = regionId;
         mImageResourceId = imageResourceId;
-//        mPhoneNumberId = phoneNumberId;
-//        mAddressId = addressId;
-//        mWebURLId = webURLId;
     }
 
     /**

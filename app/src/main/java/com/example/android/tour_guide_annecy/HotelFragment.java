@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
@@ -30,6 +29,7 @@ public class HotelFragment extends Fragment {
         guides.add(new Guide(R.string.hotel_item_3, R.string.hotel_item_region_3, R.drawable.splandid_hotel, R.string.hotel_item_tel_3, R.string.hotel_item_add_3, R.string.hotel_item_web_3));
         guides.add(new Guide(R.string.hotel_item_4, R.string.hotel_item_region_4, R.drawable.ibis_annecy, R.string.hotel_item_tel_4, R.string.hotel_item_add_4, R.string.hotel_item_web_4));
         guides.add(new Guide(R.string.hotel_item_5, R.string.hotel_item_region_5, R.drawable.atipik_hotel, R.string.hotel_item_tel_5, R.string.hotel_item_add_5, R.string.hotel_item_web_5));
+        guides.add(new Guide(R.string.hotel_item_6, R.string.hotel_item_region_6, R.drawable.allobroges, R.string.hotel_item_tel_6, R.string.hotel_item_add_6, R.string.hotel_item_web_6));
 
         GuideAdapter adapter = new GuideAdapter(getActivity(), guides);
 
@@ -38,24 +38,21 @@ public class HotelFragment extends Fragment {
         listView.setAdapter(adapter);
 
         //Create a onClickLIstener when listview item clicked
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //Get current item index
-                Guide currentGuideData = guides.get(position);
+        listView.setOnItemClickListener((parent, view, position, id) -> {
+            //Get current item index
+            Guide currentGuideData = guides.get(position);
 
-                //Create an Intent
-                Intent intent = new Intent(getContext(), GuideDetailsActivity.class);
+            //Create an Intent
+            Intent intent = new Intent(getContext(), GuideDetailsActivity.class);
 
-                intent.putExtra("name", currentGuideData.getNameIdnameId());
-                intent.putExtra("region", currentGuideData.getRegionId());
-                intent.putExtra("coverPhoto", currentGuideData.getImageResourceId());
-                intent.putExtra("tel", currentGuideData.getPhoneNumberId());
-                intent.putExtra("address", currentGuideData.getAddressId());
-                intent.putExtra("websiteUrl", currentGuideData.getWebURLId());
+            intent.putExtra("name", currentGuideData.getNameIdnameId());
+            intent.putExtra("region", currentGuideData.getRegionId());
+            intent.putExtra("coverPhoto", currentGuideData.getImageResourceId());
+            intent.putExtra("tel", currentGuideData.getPhoneNumberId());
+            intent.putExtra("address", currentGuideData.getAddressId());
+            intent.putExtra("websiteUrl", currentGuideData.getWebURLId());
 
-                startActivity(intent);
-            }
+            startActivity(intent);
         });
 
         return rootView;

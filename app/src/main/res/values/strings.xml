@@ -1,130 +1,152 @@
 <resources>
     <string name="app_name">Tour_Guide_Annecy</string>
 
-    <!-- Name, region for the HOT items -->
+    <!-- HOT items -->
     <string name="hot_item_1">Lake Annecy</string>
     <string name="hot_item_2">La Vieille Ville</string>
     <string name="hot_item_3">Palais de l\'Ile</string>
     <string name="hot_item_4">Glacier des Alpes</string>
     <string name="hot_item_5">Auberge de Savoie</string>
+    <string name="hot_item_6">Jardins de l\'Europe</string>
 
     <string name="hot_item_region_1">Annecy</string>
     <string name="hot_item_region_2">Annecy</string>
     <string name="hot_item_region_3">Annecy</string>
     <string name="hot_item_region_4">Annecy</string>
     <string name="hot_item_region_5">Annecy</string>
+    <string name="hot_item_region_6">Annecy</string>
 
     <string name="hot_item_add_1">74000, Annecy France</string>
     <string name="hot_item_add_2">74000, Annecy France</string>
     <string name="hot_item_add_3">3 Passage de l\'Île, 74000 Annecy</string>
     <string name="hot_item_add_4">16 Rue Perrière, 74000 Annecy</string>
     <string name="hot_item_add_5"> 1 Place Saint-François de Sales, 74000 Annecy</string>
+    <string name="hot_item_add_6">quai Napoleon III, 74000, Annecy France</string>
 
     <string name="hot_item_tel_1">+33 4 50 45 00 33</string>
     <string name="hot_item_tel_2">+33 4 50 46 23 07</string>
     <string name="hot_item_tel_3">+33 4 56 49 40 37</string>
     <string name="hot_item_tel_4">+33 4 50 51 08 86</string>
     <string name="hot_item_tel_5">+33 4 50 45 03 05</string>
+    <string name="hot_item_tel_6">+33 4 50 45 00 33</string>
 
     <string name="hot_item_web_1">http://www.lac-annecy.com/</string>
     <string name="hot_item_web_2">http://en.lac-annecy.com/discover/our-territory.html</string>
     <string name="hot_item_web_3">http://musees.annecy.fr/Palais-de-l-Ile</string>
     <string name="hot_item_web_4">https://all.accor.com/hotel/0538/index.fr.shtml</string>
     <string name="hot_item_web_5">https://www.auberge-de-savoie.com/</string>
+    <string name="hot_item_web_6">https://www.tourisme-annecy.net/jardins-de-europe.html</string>
 
-    <!-- Name, region for the FOOD items -->
+    <!-- FOOD items -->
     <string name="food_item_1">Le Fréti</string>
     <string name="food_item_2">L\'Estaminet</string>
     <string name="food_item_3">The Little Italy</string>
     <string name="food_item_4">Glacier des Alpes</string>
     <string name="food_item_5">Auberge de Savoie</string>
+    <string name="food_item_6">Le Cochon à l\'Oreille</string>
+
 
     <string name="food_item_region_1">Annecy</string>
     <string name="food_item_region_2">Annecy</string>
     <string name="food_item_region_3">Annecy</string>
     <string name="food_item_region_4">Annecy</string>
     <string name="food_item_region_5">Annecy</string>
+    <string name="food_item_region_6">Annecy</string>
+
 
     <string name="food_item_add_1">12 Rue Sainte-Claire, 74000 Annecy</string>
     <string name="food_item_add_2">8 Rue Sainte-Claire, 74000 Annecy</string>
     <string name="food_item_add_3">16 Rue Sainte-Claire, 74000 Annecy</string>
     <string name="food_item_add_4">16 Rue Perrière, 74000 Annecy</string>
-    <string name="food_item_add_5"> 1 Place Saint-François de Sales, 74000 Annecy</string>
+    <string name="food_item_add_5">1 Place Saint-François de Sales, 74000 Annecy</string>
+    <string name="food_item_add_6">Passage Golliardi, 74000 Annecy</string>
 
     <string name="food_item_tel_1">+33 4 50 51 29 52</string>
     <string name="food_item_tel_2">+33 4 50 45 88 83</string>
     <string name="food_item_tel_3">+33 4 50 52 92 78</string>
     <string name="food_item_tel_4">+33 4 50 51 08 86</string>
     <string name="food_item_tel_5">+33 4 50 45 03 05</string>
+    <string name="food_item_tel_6">+33 4 50 45 92 51</string>
 
     <string name="food_item_web_1">https://www.lefreti-annecy.fr/</string>
     <string name="food_item_web_2">https://www.lestaminet-annecy.fr/</string>
     <string name="food_item_web_3">https://www.facebook.com/TheLittleItalyAnnecy/</string>
     <string name="food_item_web_4">https://all.accor.com/hotel/0538/index.fr.shtml</string>
     <string name="food_item_web_5">https://www.auberge-de-savoie.com/</string>
+    <string name="food_item_web_6">http://www.cochon-annecy.com/</string>
 
+    <!-- TOUR items -->
     <string name="tour_item_1">Lake Annecy</string>
     <string name="tour_item_2">La Vieille Ville</string>
     <string name="tour_item_3">Palais de l\'Ile</string>
     <string name="tour_item_4">Chateau d\'Annecy</string>
     <string name="tour_item_5">Les Gorges du Fier</string>
+    <string name="tour_item_6">Jardins de l\'Europe</string>
 
     <string name="tour_item_region_1">Annecy</string>
     <string name="tour_item_region_2">Annecy</string>
     <string name="tour_item_region_3">Annecy</string>
     <string name="tour_item_region_4">Annecy</string>
     <string name="tour_item_region_5">Annecy</string>
+    <string name="tour_item_region_6">Annecy</string>
 
     <string name="tour_item_add_1">74000, Annecy France</string>
     <string name="tour_item_add_2">8 Rue Sainte-Claire, 74000 Annecy</string>
     <string name="tour_item_add_3">16 Rue Sainte-Claire, 74000 Annecy</string>
     <string name="tour_item_add_4">1 Place du Château, 74000 Annecy</string>
     <string name="tour_item_add_5">30 Rue du Pont des Liasses, 74330 Lovagny</string>
+    <string name="tour_item_add_6">quai Napoleon III, 74000, Annecy France</string>
 
     <string name="tour_item_tel_1">+33 4 50 45 00 33</string>
     <string name="tour_item_tel_2">+33 4 50 45 00 33</string>
     <string name="tour_item_tel_3">+33 4 56 49 40 37</string>
     <string name="tour_item_tel_4">+33 4 50 33 87 30</string>
     <string name="tour_item_tel_5">+33 4 50 46 23 07</string>
+    <string name="tour_item_tel_6">+33 4 50 45 00 33</string>
 
-    <!-- change-->
     <string name="tour_item_web_1">http://www.lac-annecy.com</string>
     <string name="tour_item_web_2">http://en.lac-annecy.com/discover/our-territory.html</string>
     <string name="tour_item_web_3">http://musees.annecy.fr/Palais-de-l-Ile</string>
     <string name="tour_item_web_4">https://all.accor.com/hotel/0538/index.fr.shtml</string>
     <string name="tour_item_web_5">https://www.auberge-de-savoie.com/</string>
+    <string name="tour_item_web_6">https://www.tourisme-annecy.net/jardins-de-europe.html</string>
 
-
-    <!-- Name, region for the HOTEL items -->
+    <!-- HOTEL items -->
     <string name="hotel_item_1">Hotel des Alpes</string>
     <string name="hotel_item_2">Imperial Palace</string>
     <string name="hotel_item_3">Splendid Hotel Annecy</string>
     <string name="hotel_item_4">Ibis Annecy</string>
     <string name="hotel_item_5">Atipik Hotel Annecy</string>
+    <string name="hotel_item_6">Allobroges Park Hotel</string>
 
     <string name="hotel_item_region_1">Annecy</string>
     <string name="hotel_item_region_2">Annecy</string>
     <string name="hotel_item_region_3">Annecy</string>
     <string name="hotel_item_region_4">Annecy</string>
     <string name="hotel_item_region_5">Annecy</string>
+    <string name="hotel_item_region_6">Annecy</string>
+
 
     <string name="hotel_item_add_1">12 Rue de la Poste, 74000 Annecy</string>
     <string name="hotel_item_add_2">Allée de l\'Impérial, 74000 Annecy</string>
     <string name="hotel_item_add_3">4 Quai Eustache Chappuis, 74000 Annecy</string>
     <string name="hotel_item_add_4">Ilôt De La Manufacture, 12 Rue de la Gare, 74000</string>
     <string name="hotel_item_add_5">19 Rue Vaugelas, 74000 Annecy</string>
+    <string name="hotel_item_add_6">11 rue Sommeiller, 74000, Annecy France</string>
 
     <string name="hotel_item_tel_1">+33 4 50 45 04 56</string>
     <string name="hotel_item_tel_2">+33 4 50 09 30 00</string>
     <string name="hotel_item_tel_3">+33 4 50 45 20 00</string>
     <string name="hotel_item_tel_4">+33 4 50 45 43 21</string>
     <string name="hotel_item_tel_5">+33 4 50 52 84 33</string>
+    <string name="hotel_item_tel_6">+33 4 50 45 03 11</string>
 
     <string name="hotel_item_web_1">https://www.hotelannecy.com/</string>
     <string name="hotel_item_web_2">https://www.hotel-imperial-palace.com/</string>
     <string name="hotel_item_web_3">http://musees.annecy.fr/Palais-de-l-Ile</string>
     <string name="hotel_item_web_4">https://all.accor.com/hotel/0538/index.fr.shtml</string>
     <string name="hotel_item_web_5">https://www.atipikhotel.fr/</string>
+    <string name="hotel_item_web_6">https://www.allobroges.com/</string>
 
     <!-- Tab String -->
     <string name="call_button">CALL</string>

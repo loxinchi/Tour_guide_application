@@ -26,10 +26,11 @@ public class TourFragment extends Fragment {
         // Create a list of guides
         final ArrayList<Guide> guides = new ArrayList<Guide>();
         guides.add(new Guide(R.string.tour_item_1, R.string.tour_item_region_1, R.drawable.lack_annecy, R.string.tour_item_tel_1, R.string.tour_item_add_1, R.string.tour_item_web_1));
-        guides.add(new Guide(R.string.tour_item_2, R.string.tour_item_region_2, R.drawable.la_vieille_ville, R.string.tour_item_tel_1, R.string.tour_item_add_1, R.string.tour_item_web_1));
-        guides.add(new Guide(R.string.tour_item_3, R.string.tour_item_region_3, R.drawable.palaisdelile, R.string.tour_item_tel_1, R.string.tour_item_add_1, R.string.tour_item_web_1));
-        guides.add(new Guide(R.string.tour_item_4, R.string.tour_item_region_4, R.drawable.chateaudannecy, R.string.tour_item_tel_1, R.string.tour_item_add_1, R.string.tour_item_web_1));
-        guides.add(new Guide(R.string.tour_item_5, R.string.tour_item_region_5, R.drawable.lesgorges_dufier, R.string.tour_item_tel_1, R.string.tour_item_add_1, R.string.tour_item_web_1));
+        guides.add(new Guide(R.string.tour_item_2, R.string.tour_item_region_2, R.drawable.la_vieille_ville, R.string.tour_item_tel_2, R.string.tour_item_add_2, R.string.tour_item_web_2));
+        guides.add(new Guide(R.string.tour_item_3, R.string.tour_item_region_3, R.drawable.palaisdelile, R.string.tour_item_tel_3, R.string.tour_item_add_3, R.string.tour_item_web_3));
+        guides.add(new Guide(R.string.tour_item_4, R.string.tour_item_region_4, R.drawable.chateaudannecy, R.string.tour_item_tel_4, R.string.tour_item_add_4, R.string.tour_item_web_4));
+        guides.add(new Guide(R.string.tour_item_5, R.string.tour_item_region_5, R.drawable.lesgorges_dufier, R.string.tour_item_tel_5, R.string.tour_item_add_5, R.string.tour_item_web_5));
+        guides.add(new Guide(R.string.tour_item_6, R.string.tour_item_region_6, R.drawable.jardinn, R.string.tour_item_tel_6, R.string.tour_item_add_6, R.string.tour_item_web_6));
 
         GuideAdapter adapter = new GuideAdapter(getActivity(), guides);
 
@@ -57,7 +58,6 @@ public class TourFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return rootView;
     }
 }
