@@ -1,12 +1,18 @@
 package com.example.android.tour_guide_annecy;
 
 import android.content.Context;
+import android.content.res.Resources;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,8 +42,13 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
 
         Guide currentGuide = getItem(position);
 
+        int width = Resources.getSystem().getDisplayMetrics().widthPixels;
         ImageView listImageView = (ImageView) listItemView.findViewById(R.id.list_image);
         listImageView.setImageResource(currentGuide.getImageResourceId());
+
+        //set image width corresponds to tab width
+        listImageView.getLayoutParams().width = width/4;
+        listImageView.setScaleType(ImageView.ScaleType.FIT_XY);
 
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.list_item_text_view_a);
         nameTextView.setText(currentGuide.getNameIdnameId());
