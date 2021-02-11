@@ -1,7 +1,8 @@
 Udacity Project 5 - Tour Guide Application 
 =======================
 
-* This is a Tour Guide application for Annecy, France.
+* This is a Tour Guide application for Annecy, France made for Udacity Android Basics by Google Nanodegree Program.
+
 * Using Fragment, Viewpager, intent, list view OnclickListiener.
 
 * Click list item to get item detail view.
